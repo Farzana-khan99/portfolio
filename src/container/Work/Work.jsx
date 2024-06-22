@@ -42,8 +42,8 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        I know That <span>Good Design</span> means <br />
-        <span>Good Business</span>
+      Good design<span> equals good  <br /></span> business
+       
       </h2>
       <div className="app__work-filter">
         {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
