@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "portfolio"
+  },
+  "api": {
+    "projectId": "8dfavgwn",
+    "dataset": "2021-10-21",
+    
+    "corsOrigins": [
+      {
+        "origin": "http://localhost:3333",
+        "allowCredentials": true
+      },
+      {
+        "origin": "http://localhost:3000",
+        "allowCredentials": true
+      }
+    ]
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
